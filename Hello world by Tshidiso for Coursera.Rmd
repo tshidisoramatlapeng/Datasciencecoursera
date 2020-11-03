@@ -1,0 +1,31 @@
+---
+title: "Helloworld.md"
+author: "Tshidiso"
+date: "November 3, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# This is the second R Markdown document for Data Science Coursera
+## Introduction
+
+This piece of document is the second i have produced while learning how to link git and Rstudio. Hopefully i will be able to upload this document via Rstudio online
+
+**Regards**
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
